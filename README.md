@@ -24,6 +24,20 @@ All Firebase credentials are stored in a `.env` file to keep sensitive informati
 - [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
 - [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
 
+## Environment Variables (.env)
+
+For security reasons, the actual Firebase credentials are **not included** in the repository.  
+Below is an example of how i structured my `.env` file:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY="YOUR_FIREBASE_API_KEY"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="YOUR_PROJECT.firebaseapp.com"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="YOUR_PROJECT_ID"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="YOUR_PROJECT.appspot.com"
+NEXT_PUBLIC_FIREBASE_MESSAGE_SENDER_ID="YOUR_SENDER_ID"
+NEXT_PUBLIC_FIREBASE_APP_ID="YOUR_APP_ID"
+```
+
 ## Challenges & Future Improvements
 
 - Understanding Next.js routing and Firebase setup for the first time.
